@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+*{
+    box-sizing: content-box;
+}
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 2%;
+}
+
+.container-fluid{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    padding: 1%;
+    color:white;
+    font-family:"Roboto Slab", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: large;
+    
+}
+.col-6{
+    background-color:rgb(172, 57, 57);
+}
+.equalsign{
+    background-color:rgb(0, 68, 102)
+}
+
+.operator{
+    background-color:grey;
+}
+.operand{
+    background-color:#4d4d4d;
+}
+button{
+    padding: 5%;
+    color:white;
+    border-color: black;
+}
+button:active{
+    background-color: white;
+    color:black;
+  
+}
+@media (min-width:1000px) and (max-width:1400px){
+    .container-fluid {
+        max-width: 30%;
+    }
+}
+@media (min-width: 576px) and (max-width: 1100px) {
+    .container-fluid {
+      max-width: 50%;
+    }
+  }
+
+@media (max-width: 575.98px) {
+    .container-fluid {
+      max-width: 90%;
+    }
+}
